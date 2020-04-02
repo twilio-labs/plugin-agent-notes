@@ -29,10 +29,10 @@ In order to develop locally, you can use the Webpack Dev Server by running:
 npm start
 ```
 
-This will automatically start up the Webpack Dev Server and open the browser for you. Your app will run on `http://localhost:8080`. If you want to change that you can do this by setting the `PORT` environment variable:
+This will automatically start up the Webpack Dev Server and open the browser for you. Your app will run on `http://localhost:3000`. If you want to change that you can do this by setting the `PORT` environment variable:
 
 ```bash
-PORT=3000 npm start
+PORT=3001 npm start
 ```
 
 When you make changes to your code, the browser window will be automatically refreshed.
