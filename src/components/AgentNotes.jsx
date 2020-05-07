@@ -21,7 +21,7 @@ export default class AgentNotes extends Component {
 
   render() {
     return (
-      <AgentNotesStyles>
+      <AgentNotesStyles id="agent-notes">
         <div className="header-container">
           <div className="header">Agent Notes</div>
         </div>
