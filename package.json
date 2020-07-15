@@ -19,7 +19,7 @@
     "test": "flex-plugin test --env=jsdom"
   },
   "dependencies": {
-    "craco-config-flex-plugin": "^3.6.1",
+    "craco-config-flex-plugin": "^3.13.5",
     "flex-plugin": "^3.5.0",
     "flex-plugin-scripts": "^3.5.0",
     "react": "16.5.2",
