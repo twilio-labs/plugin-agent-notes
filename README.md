@@ -1,6 +1,6 @@
 # Agent Notes Plugin
 
-This Twilio Flex Plugin enables your agents to take notes when they are on-call or chatting with a customer. This is an introductory plugin where the notes are stored locally for your agents.
+This Twilio Flex Plugin enables your agents to take notes when they are chatting with a customer. This is an introductory plugin where the notes are stored locally for your agents.
 
 To learn more about developing plugins on your Flex instance, refer to the [getting started guide](https://www.twilio.com/docs/flex/quickstart/getting-started-plugin).
 
