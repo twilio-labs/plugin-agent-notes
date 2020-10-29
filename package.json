@@ -4,46 +4,14 @@
   "private": true,
   "description": "Enables your agents to take notes when they are chatting with a customer",
   "scripts": {
-    "bootstrap": "flex-plugin check-start",
-    "prebuild": "rimraf build && npm run bootstrap",
-    "build": "flex-plugin build",
-    "clear": "flex-plugin clear",
-    "predeploy": "npm run build",
-    "deploy": "flex-plugin deploy",
-    "eject": "flex-plugin eject",
-    "info": "flex-plugin info",
-    "postinstall": "npm run bootstrap",
-    "list": "flex-plugin list",
-    "remove": "flex-plugin remove",
-    "prestart": "npm run bootstrap",
-    "start": "flex-plugin start",
-    "test": "flex-plugin test --env=jsdom"
+    "postinstall": "flex-plugin pre-script-check"
   },
   "dependencies": {
-    "craco-config-flex-plugin": "^3",
-    "flex-plugin": "^3",
-    "flex-plugin-scripts": "^3",
     "react": "16.5.2",
     "react-dom": "16.5.2",
-    "react-scripts": "3.4.3"
+    "flex-plugin-scripts": "4.3.2-beta.0"
   },
   "devDependencies": {
-    "@twilio/flex-ui": "^1",
-    "babel-polyfill": "^6.26.0",
-    "enzyme": "^3.10.0",
-    "enzyme-adapter-react-16": "^1.14.0",
-    "rimraf": "^3.0.2"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+    "@twilio/flex-ui": "^1"
   }
 }
