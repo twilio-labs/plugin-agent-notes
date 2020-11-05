@@ -7,8 +7,8 @@
     "postinstall": "flex-plugin pre-script-check"
   },
   "dependencies": {
-    "react": "16.5.2",
-    "react-dom": "16.5.2",
+    "react": "16.14.0",
+    "react-dom": "16.14.0",
     "flex-plugin-scripts": "4.3.2-beta.0"
   },
   "devDependencies": {
