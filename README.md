@@ -44,7 +44,7 @@ Type `twilio flex:plugins:start --help` to get more detailed information about t
 When you are ready to deploy your plugin, in your terminal run:
 
 ```bash
-twilio flex:plugins:deploy -major --changelog "Adding Agent Notes" --description "Ability for agents to take notes"
+twilio flex:plugins:deploy --major --changelog "Adding Agent Notes" --description "Ability for agents to take notes"
 ```
 
 This will upload your plugin to Flex. After a deploy, your plugin is not yet enabled for all your users on your Flex application. You need to run the release command after the deploy to enable any changes:
