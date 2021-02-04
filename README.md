@@ -1,4 +1,7 @@
 # Agent Notes Plugin
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 This Twilio Flex Plugin enables your agents to take notes when they are chatting with a customer. This is an introductory plugin where the notes are stored locally for your agents.
 
@@ -56,3 +59,23 @@ flex:plugins:release --name "Plugin Release-Agent Notes" --description "Enabling
 For more details on deploying your plugin, refer to the [deploying your plugin guide](https://www.twilio.com/docs/flex/developer/plugins/cli/deploy-and-release).
 
 Note: Common packages like `React`, `ReactDOM`, `Redux` and `ReactRedux` are not bundled with the build because they are treated as external dependencies, so the plugin will depend on Flex to provide them globally.
+
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/ktalebian"><img src="https://avatars.githubusercontent.com/u/2308915?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Kousha Talebian</b></sub></a><br /><a href="https://github.com/twilio-labs/plugin-agent-notes/issues?q=author%3Aktalebian" title="Bug reports">🐛</a> <a href="https://github.com/twilio-labs/plugin-agent-notes/commits?author=ktalebian" title="Code">💻</a> <a href="https://github.com/twilio-labs/plugin-agent-notes/commits?author=ktalebian" title="Documentation">📖</a> <a href="#design-ktalebian" title="Design">🎨</a> <a href="#question-ktalebian" title="Answering Questions">💬</a></td>
+  </tr>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
