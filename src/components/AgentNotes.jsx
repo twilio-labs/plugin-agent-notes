@@ -4,12 +4,14 @@ import Card from '@material-ui/core/Card';
 import { AgentNotesStyles } from './AgentNotes.Styles';
 
 export default class AgentNotes extends Component {
+  static displayName = 'AgentNotes';
+
   constructor() {
     super();
 
     this.state = {
       notes: localStorage.getItem('agentNotes'),
-    }
+    };
   }
 
   handleTextareaOnChange = (e) => {
@@ -17,7 +19,7 @@ export default class AgentNotes extends Component {
 
     localStorage.setItem('agentNotes', notes);
     this.setState({ notes });
-  }
+  };
 
   render() {
     return (
@@ -26,11 +28,7 @@ export default class AgentNotes extends Component {
           <div className="header">Agent Notes</div>
         </div>
         <Card className="card">
-          <textarea
-            className="textarea"
-            value={this.state.notes}
-            onChange={this.handleTextareaOnChange}
-          />
+          <textarea className="textarea" value={this.state.notes} onChange={this.handleTextareaOnChange} />
         </Card>
       </AgentNotesStyles>
     );

@@ -64,3 +64,6 @@ typings/
 appConfig.js
 pluginsService.js
 build/
+
+.idea
+.DS_Store

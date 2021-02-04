@@ -20,8 +20,6 @@ export default class AgentNotesPlugin extends FlexPlugin {
   init(flex, manager) {
     loadCSS('https://rose-gaur-9610.twil.io/assets/styles.css');
 
-    flex.AgentDesktopView.Panel2.Content.replace(
-      <AgentNotes key="agent-notes" />,
-    );
+    flex.AgentDesktopView.Panel2.Content.replace(<AgentNotes key="agent-notes" />);
   }
 }
