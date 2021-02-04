@@ -55,4 +55,4 @@ flex:plugins:release --name "Plugin Release-Agent Notes" --description "Enabling
 
 For more details on deploying your plugin, refer to the [deploying your plugin guide](https://www.twilio.com/docs/flex/developer/plugins/cli/deploy-and-release).
 
-Note: Common packages like `React`, `ReactDOM`, `Redux` and `ReactRedux` are not bundled with the build because they are treated as external dependencies, so the plugin will depend on Flex to provide them globally.
+_Note_: Common packages like `React`, `ReactDOM`, `Redux` and `ReactRedux` are not bundled with the build because they are treated as external dependencies, so the plugin will depend on Flex to provide them globally.
