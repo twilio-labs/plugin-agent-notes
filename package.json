@@ -4,14 +4,19 @@
   "private": true,
   "description": "Enables your agents to take notes when they are chatting with a customer",
   "scripts": {
-    "postinstall": "flex-plugin pre-script-check"
+    "postinstall": "flex-plugin pre-script-check",
+    "lint": "eslint --ext js --ext jsx src/",
+    "lint:fix": "npm run lint -- --fix"
   },
   "dependencies": {
+    "flex-plugin-scripts": "4.3.19-beta.0",
     "react": "16.5.2",
-    "react-dom": "16.5.2",
-    "flex-plugin-scripts": "4.3.2-beta.0"
+    "react-dom": "16.5.2"
   },
   "devDependencies": {
-    "@twilio/flex-ui": "^1"
+    "@twilio/flex-ui": "^1",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.19.0",
+    "eslint-config-twilio-react": "^1.33.1"
   }
 }

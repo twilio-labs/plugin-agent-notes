@@ -15,9 +15,8 @@ Make sure you have [Node.js](https://nodejs.org) as well as [`npm`](https://npmj
 Afterwards, install the dependencies by running `npm install`:
 
 ```bash
-cd 
-
-# If you use npm
+git clone https://github.com/twilio-labs/plugin-agent-notes
+cd plugin-agent-notes
 npm install
 ```
 
@@ -47,7 +46,7 @@ When you are ready to deploy your plugin, in your terminal run:
 twilio flex:plugins:deploy --major --changelog "Adding Agent Notes" --description "Ability for agents to take notes"
 ```
 
-This will upload your plugin to Flex. After a deploy, your plugin is not yet enabled for all your users on your Flex application. You need to run the release command after the deploy to enable any changes:
+This will upload your plugin to Flex. After a deployment, your plugin is not yet enabled for all your users on your Flex application. You need to run the release command after the deploy to enable any changes:
 
 
 ```bash
@@ -56,4 +55,4 @@ flex:plugins:release --name "Plugin Release-Agent Notes" --description "Enabling
 
 For more details on deploying your plugin, refer to the [deploying your plugin guide](https://www.twilio.com/docs/flex/developer/plugins/cli/deploy-and-release).
 
-Note: Common packages like `React`, `ReactDOM`, `Redux` and `ReactRedux` are not bundled with the build because they are treated as external dependencies so the plugin will depend on Flex to provide them globally.
+Note: Common packages like `React`, `ReactDOM`, `Redux` and `ReactRedux` are not bundled with the build because they are treated as external dependencies, so the plugin will depend on Flex to provide them globally.
