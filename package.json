@@ -14,7 +14,7 @@
     "react-dom": "16.5.2"
   },
   "devDependencies": {
-    "@twilio/flex-ui": "^1",
+    "@twilio/flex-ui": "^1.26.3",
     "babel-eslint": "^10.1.0",
     "eslint": "^7.19.0",
     "eslint-config-twilio-react": "^1.33.1"
