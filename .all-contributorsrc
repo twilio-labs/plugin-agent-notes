@@ -43,6 +43,19 @@
         "design",
         "question"
       ]
+    },
+    {
+      "login": "ruma",
+      "name": "Ruma",
+      "avatar_url": "https://avatars.githubusercontent.com/u/16043271?v=4",
+      "profile": "https://www.ruma.io/",
+      "contributions": [
+        "bug",
+        "code",
+        "doc",
+        "design",
+        "question"
+      ]
     }
   ],
   "contributorsPerLine": 7,
