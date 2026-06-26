@@ -1,9 +1,12 @@
 # Agent Notes Plugin
+
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-This Twilio Flex Plugin enables your agents to take notes when they are chatting with a customer. This is an introductory plugin where the notes are stored locally for your agents.
+**Add note-taking capabilities to Twilio Flex agent interfaces**
+
+This Twilio Flex Plugin enables your agents to take notes when they are chatting with a customer. The plugin provides a simple, integrated note-taking interface directly within the Flex agent workspace, allowing agents to document important conversation details, action items, and customer information in real-time. Notes are stored locally in the browser's session storage, making this an ideal introductory plugin for learning Flex development patterns without requiring backend infrastructure.
 
 To learn more about developing plugins on your Flex instance, refer to the [getting started guide](https://www.twilio.com/docs/flex/quickstart/getting-started-plugin).
 
@@ -59,6 +62,14 @@ flex:plugins:release --name "Plugin Release-Agent Notes" --description "Enabling
 For more details on deploying your plugin, refer to the [deploying your plugin guide](https://www.twilio.com/docs/flex/developer/plugins/cli/deploy-and-release).
 
 Note: Common packages like `React`, `ReactDOM`, `Redux` and `ReactRedux` are not bundled with the build because they are treated as external dependencies, so the plugin will depend on Flex to provide them globally.
+
+## Related Resources
+
+- [Twilio Flex Documentation](https://www.twilio.com/docs/flex)
+- [Flex Plugin Builder](https://github.com/twilio/flex-plugin-builder)
+- [Flex Plugin CLI Reference](https://www.twilio.com/docs/flex/developer/plugins/cli)
+- [Getting Started with Flex Plugin Development](https://www.twilio.com/docs/flex/quickstart/getting-started-plugin)
+- [Flex UI Component Documentation](https://www.twilio.com/docs/flex/developer/ui/components)
 
 ## Contributors ✨
 
